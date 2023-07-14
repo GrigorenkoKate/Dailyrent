@@ -1,0 +1,110 @@
+.object {
+   max-width: 380px;
+   border-radius: 10px;
+   display: flex;
+   flex-direction: column;
+   align-items: flex-start;
+   position: relative;
+}
+
+.object__status {
+   position: absolute;
+   top: 15px;
+   left: 15px;
+}
+.object__favorites {
+   position: absolute;
+   top: 15px;
+   right: 15px;
+}
+.object__img {
+   border: 1px solid #eaebee;
+}
+.object__price {
+   font-size: 16px;
+   font-weight: 700;
+   line-height: 24px;
+}
+.object__address {
+   color: #418ccf;
+   font-size: 18px;
+   font-weight: 700;
+   line-height: 27px;
+}
+/*меторосторосположение*/
+.object__district {
+   color: #112b42;
+   font-size: 14px;
+   font-weight: 400;
+   line-height: 22px;
+   margin-top: 5px;
+}
+
+.object__district > ul {
+   display: flex;
+   flex-wrap: wrap;
+}
+.object__district > ul > li {
+   display: flex;
+   align-items: center;
+   margin-right: 20px;
+}
+
+.sticker {
+   
+   margin-right: 10px;
+}
+/*меторосторосположение --and*/
+
+/*опции*/
+.object__options {
+   color: #112b42;
+   font-size: 14px;
+   font-weight: 400;
+   line-height: 21px;
+
+}
+.object__options > ul {
+   display: flex;
+   flex-wrap: wrap;
+   
+}
+.object__options > ul > li {
+   margin-right: 10px;
+   display: flex;
+   align-items: center;
+}
+
+.object__options li::after {
+   content: "";
+   display: inline-block;
+   width: 4px;
+   height: 4px;
+   border-radius: 50%;
+   margin-left: 10px;
+   background-color: #d4d7d9;
+
+}
+.object__options li:last-child {
+   
+
+}
+/*опции--and*/
+
+.object__btn {
+   background: linear-gradient(90deg, #f74c54 0%, #ff7f4e 100%);
+   padding: 8px 15px;
+   display: inline-block;
+   border-radius: 12px;
+   margin-top: 15px;
+   color: #FFFFFF;
+font-size: 16px;
+font-weight: 600;
+line-height: 22px;
+text-align: left;
+
+}
+
+.sticker_btn{
+   margin-right: 5px;
+}
