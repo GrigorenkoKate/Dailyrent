@@ -17,17 +17,18 @@
    top: 15px;
    right: 15px;
 }
+
+
 .object__img {
    border: 1px solid #eaebee;
+   border-radius: 10px;
 }
 .object__price {
-   font-size: 16px;
    font-weight: 700;
    line-height: 24px;
 }
 .object__address {
    color: #418ccf;
-   font-size: 18px;
    font-weight: 700;
    line-height: 27px;
 }
@@ -87,7 +88,6 @@
 }
 .object__options li:last-child {
    
-
 }
 /*опции--and*/
 
