@@ -4,6 +4,13 @@
    grid-gap: 30px;
 
 }
+@media (max-width: 600px) {
+   .object__contener{
+      
+      grid-template-columns: 100%;
+      
+   }
+}
 
 .object {
    max-width: 380px;
@@ -12,6 +19,7 @@
    flex-direction: column;
    align-items: flex-start;
    position: relative;
+   justify-content: space-between;
 }
 
 .object__status {
@@ -39,7 +47,7 @@
 }
 
 .object__price {
-   font-weight: 700;
+   font-weight: 700; 
    line-height: 24px;
 }
 .object__address {
@@ -51,7 +59,6 @@
 .object__district {
    color: #112b42;
    font-size: 14px;
-   font-weight: 400;
    line-height: 22px;
    margin-top: 5px;
 }
@@ -75,7 +82,6 @@
 .object__options {
    color: #112b42;
    font-size: 14px;
-   font-weight: 400;
    line-height: 21px;
 }
 .object__options > ul {
