@@ -24,7 +24,6 @@ body {
  @media (max-width: 600px) {
    .container {
       margin: 0 auto;
-      max-width: 360px;
       padding-left: 10px;
       padding-right: 10px;
     }

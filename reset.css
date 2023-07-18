@@ -49,6 +49,7 @@
  }
  button {
    cursor: pointer;
+   text-align: left;
  }
  button::-moz-focus-inner {
    padding: 0;

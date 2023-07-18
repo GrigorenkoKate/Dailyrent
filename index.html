@@ -14,8 +14,8 @@
    <link rel="stylesheet" href="padding.css">
    <link rel="stylesheet" href="margin.css">
    <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Open+Sans&family=Roboto&display=swap" rel="stylesheet">
+   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+   <link href="https://fonts.googleapis.com/css2?family=Open+Sans&family=Roboto&display=swap" rel="stylesheet">
    <title>Document</title>
 </head>
 
@@ -25,13 +25,15 @@
       <div class="h1 h1--text-center mb-30">
          Квартиры в аренду
       </div>
+
       <div class="object__contener">
          <div class="object">
             <div class="object__status">
                <img src="/img/Primary.png" alt="">
             </div>
-            <div class="object__favorites">
-               <img src="/img/like.png" alt="">
+            <div class="object__favorites active">
+               <img class="object__favorites-not-active" src="/img/like.png" alt="">
+               <img class="object__favorites-active" src="/img/heart-filled.svg" alt="">
             </div>
             <div class="object__img">
                <img src="/img/фото.png" alt="">
@@ -40,18 +42,20 @@
             <div class="object__price mt-10">
                <span class="fs-20">18$</span> за сутки
             </div>
-            <div class="object__address fs-18 mt-10">1-к., ул. Красная, д. 18</div>
-            <div class="object__district ">
-               <ul>
-                  <li> <img class="sticker" src="/img/map-pin.png" alt=""> Московский р-н ,Грушевская </li>
-                  <li> <img class="sticker" src="/img/metro-blue-line.png" alt=""> Грушевка</li>
-               </ul>
-            </div>
-            <div class="object__options mt-5">
-               <ul>
-                  <li>2 кровати</li>
-                  <li>Совмещенный санузел</li>
-               </ul>
+            <div class="object__content">
+               <div class="object__address fs-18 mt-10">1-к., ул. Красная, д. 18</div>
+               <div class="object__district ">
+                  <ul>
+                     <li> <img class="sticker" src="/img/map-pin.png" alt=""> Московский р-н ,Грушевская </li>
+                     <li> <img class="sticker" src="/img/metro-blue-line.png" alt=""> Грушевка</li>
+                  </ul>
+               </div>
+               <div class="object__options mt-5">
+                  <ul>
+                     <li>2 кровати</li>
+                     <li>Совмещенный санузел</li>
+                  </ul>
+               </div>
             </div>
             <button class="object__btn"><img class="sticker_btn" src="/img/Union.png" alt="">
                Забронировать</button>
@@ -63,7 +67,8 @@
                <img src="/img/Primary.png" alt="">
             </div>
             <div class="object__favorites">
-               <img src="/img/like.png" alt="">
+               <img class="object__favorites-not-active" src="/img/like.png" alt="">
+               <img class="object__favorites-active" src="/img/heart-filled.svg" alt="">
             </div>
             <div class="object__img">
                <img src="/img/фото.png" alt="">
@@ -72,22 +77,26 @@
             <div class="object__price mt-10">
                <span class="fs-20">14$</span> за сутки
             </div>
-            <div class="object__address fs-18 mt-10">3-к., ул. Воронянского, д. 21</div>
-            <div class="object__district ">
-               <ul>
-                  <li> <img class="sticker" src="/img/map-pin.png" alt=""> Октябрьский р-н  </li>
-                  <li> <img class="sticker" src="/img/metro-blue-line.png" alt=""> Ковальская слобода</li>
-               </ul>
+            <div class="object__content">
+               <div class="object__address fs-18 mt-10">3-к., ул. Воронянского, д. 21</div>
+               <div class="object__district ">
+                  <ul>
+                     <li> <img class="sticker" src="/img/map-pin.png" alt="">Октябрьский р-н</li>
+                     <li> <img class="sticker" src="/img/metro-green-line.png" alt="">Ковальская слобода</li>
+                  </ul>
+               </div>
+               <div class="object__options mt-5">
+                  <ul>
+                     <li>2 кровати</li>
+                     <li>Совмещенный санузел</li>
+                     <li>Интернет</li>
+                  </ul>
+               </div>
             </div>
-            <div class="object__options mt-5">
-               <ul>
-                  <li>2 кровати</li>
-                  <li>Совмещенный санузел</li>
-                  <li>Интернет</li>
-               </ul>
+            <div class="object__bnt-wrapper">
+               <button class="object__btn"><img class="sticker_btn" src="/img/Union.png" alt="">
+                  Забронировать</button>
             </div>
-            <button class="object__btn"><img class="sticker_btn" src="/img/Union.png" alt="">
-               Забронировать</button>
 
          </div>
 
@@ -105,19 +114,28 @@
             <div class="object__price mt-10">
                <span class="fs-20">9$</span> за сутки
             </div>
-            <div class="object__address fs-18 mt-10">1-к., ул. Красная, д. 18</div>
-            <div class="object__district ">
-               <ul>
-                  <li> <img class="sticker" src="/img/map-pin.png" alt="">Московский р-н </li>
-                  <li> <img class="sticker" src="/img/metro-blue-line.png" alt="">Молодежная</li>
-               </ul>
-            </div>
-            <div class="object__options mt-5">
-               <ul>
-                  <li>3 спальных места</li>
-                  <li>Совмещенный санузел</li>
-                  <li>Можно с животными</li>
-               </ul>
+            <div class="object__content">
+               <div class="object__address fs-18 mt-10">1-к., ул. Красная, д. 18</div>
+               <div class="object__district ">
+                  <ul>
+                     <li> <img class="sticker" src="/img/map-pin.png" alt="">Московский р-н</li>
+                     <li> <img class="sticker" src="/img/metro-red-line.png" alt="">Молодежная</li>
+                  </ul>
+               </div>
+               <div class="object__options mt-5">
+                  <ul>
+                     <li>3 спальных места</li>
+                     <li>Совмещенный санузел</li>
+                     <li>Можно с животными</li>
+                     <li>Можно с животными</li>
+                     <li>Можно с животными</li>
+                     <li>Можно с животными</li>
+                     <li>Можно с животными</li>
+                     <li>Можно с животными</li>
+                     <li>Можно с животными</li>
+                     <li>Можно с животными</li>
+                  </ul>
+               </div>
             </div>
             <button class="object__btn"><img class="sticker_btn" src="/img/Union.png" alt="">
                Забронировать</button>
@@ -156,7 +174,7 @@
 
          </div>
 
-         <div class="object">
+         <div class="object ">
             <div class="object__status">
                <img src="/img/Primary.png" alt="">
             </div>
@@ -174,7 +192,7 @@
             <div class="object__district ">
                <ul>
                   <li> <img class="sticker" src="/img/map-pin.png" alt="">Центральный р-н </li>
-                  <li> <img class="sticker" src="/img/metro-blue-line.png" alt="">Молодежная</li>
+                  <li> <img class="sticker" src="/img/metro-red-line.png" alt="">Молодежная</li>
                </ul>
             </div>
             <div class="object__options mt-5">
@@ -225,8 +243,9 @@
          </div>
 
 
-         
+
       </div>
+
    </div>
 
 </body>
