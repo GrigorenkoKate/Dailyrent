@@ -133,9 +133,9 @@ flex-grow: 1;
 @media (max-width: 600px) {
    .object__btn {
       width: 100%;
-   }
-   
+   }   
 }
+
 .sticker_btn {
    margin-right: 5px;
 }
